@@ -1,19 +1,15 @@
-# jamesgroat/golang-nodejs-kitchensink
+# jamesgroat/golang-image-proc
 
-[`jamesgroat/golang-nodejs-kitchensink`](https://index.docker.com/u/jamesgroat/golang-nodejs-kitchensink/) is a [docker](https://docker.io) base image that bundles the latest version of [golang](http://golang.org) installed from [golang.org](http://golang.org/doc/install/).
-It also bundles the latest version of [nodejs](https://nodejs.org) and [npm](https://npmjs.org) installed from [nodejs.org](http://nodejs.org/download/).
+[`jamesgroat/golang-image-proc`](https://hub.docker.com/r/jamesgroat/golang-image-proc/) is a [docker](https://docker.io) base image that bundles some image processing tools for use from GO.
 
 ### Base Docker Image
 
-* [`jamesgroat/golang-nodejs-bower-gulp`](https://index.docker.io/u/jamesgroat/golang-nodejs-bower-gulp)
+* [`golang:latest`](https://hub.docker.com/_/golang/)
 
+### Tools
 
-### Kitchen Sink
+This image includes:
 
-This image also includes:
-
-* [Bower](http://bower.io/)
-* [Gulp](http://gulpjs.com/) 
-* tsd (Typescript for gulp)
-* Ruby 
-* Sass
+* [Inkscape](http://bower.io/)
+* [pngquant](https://github.com/pornel/pngquant/)
+* rsvg-convert
